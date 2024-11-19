@@ -8,8 +8,8 @@ set group=ИИПб-24-2
 set name=VaganovMA
 
 set sprint=4
-set task=0
-set variant=5
+set task=1
+set variant=24
 
 set template=%prefix%.%name%.Sprint%sprint%
 set filename_template=%template%.Task%task%.V%variant%
@@ -78,6 +78,9 @@ echo         Console.WriteLine("************************************************
 echo         Console.WriteLine("* РЕЗУЛЬТАТ:                                                           *"); >> %console_class%
 echo         Console.WriteLine("************************************************************************"); >> %console_class%
 echo. >> %console_class%
+echo         Console.WriteLine() >> %console_class%
+echo         int s = ds.Calculate(numsArray); >> %console_class%
+echo         Console.ReadKey(); >> %console_class%
 echo         Console.WriteLine($"Ответ = "); >> %console_class%
 echo     } >> %console_class%
 echo } >> %console_class%
