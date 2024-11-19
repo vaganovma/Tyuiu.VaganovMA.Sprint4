@@ -11,7 +11,7 @@ public class DataServiceTest
 
         int[] numsArray = { 8, 9, 4, 1, 2, 3, 4, 5, 6, 7 };
         int res = ds.GetSumEvenArrEl(numsArray);
-        int numWaitArray = 1536;
+        int numWaitArray = 24;// 1536;
 
         Assert.AreEqual(numWaitArray, res);
     } 

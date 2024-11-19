@@ -25,7 +25,7 @@ class Program
         { 
             Console.WriteLine(numsArray[i]);
         }
-        
+       
         Console.WriteLine("************************************************************************"); 
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                           *"); 
         Console.WriteLine("************************************************************************");
