@@ -10,7 +10,7 @@ public class DataService : ISprint4Task1V24
 
         for (int i = 0; i < array.Length; i++)
         {
-            if (array[i] %2 == 0)
+            if (array[i] %2 != 0)
             {
                 s *= array[i];
             }
