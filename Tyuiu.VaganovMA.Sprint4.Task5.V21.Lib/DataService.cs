@@ -15,7 +15,7 @@ public class DataService : ISprint4Task5V21
         {
             for (int j = 0; j < stolb; j++)
             {
-                if (matrix[i, j] >=0)
+                if (matrix[i, j] >0)
                 {
                    matrix[i, j]=1;
                 }
