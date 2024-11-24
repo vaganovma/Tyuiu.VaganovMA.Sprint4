@@ -8,8 +8,8 @@ set group=ИИПб-24-2
 set name=VaganovMA
 
 set sprint=4
-set task=5
-set variant=21
+set task=6
+set variant=15
 
 set template=%prefix%.%name%.Sprint%sprint%
 set filename_template=%template%.Task%task%.V%variant%
@@ -118,6 +118,7 @@ echo    int Wait = 84375; >> %mstest_class%
 echo    Assert.AreEqual(Wait, res); >> %mstest_class%
 echo    } >> %mstest_class%
 echo } >> %mstest_class%
+echo    //не делал!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! >> %mstest_class%
 
 :: Добавляем в решение
 dotnet sln %template%.sln add %console_path%\%console_path%.csproj --solution-folder Task%task%
