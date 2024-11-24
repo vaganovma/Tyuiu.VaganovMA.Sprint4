@@ -8,8 +8,8 @@ set group=ИИПб-24-2
 set name=VaganovMA
 
 set sprint=4
-set task=4
-set variant=7
+set task=5
+set variant=21
 
 set template=%prefix%.%name%.Sprint%sprint%
 set filename_template=%template%.Task%task%.V%variant%

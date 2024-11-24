@@ -15,5 +15,7 @@ public class DataServiceTest
         int res = ds.Calculate(array); 
         int Wait = 84375; 
    Assert.AreEqual(Wait, res); 
-   } 
-} 
+   }
+    //ме декюк!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+}
